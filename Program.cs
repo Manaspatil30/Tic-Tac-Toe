@@ -6,8 +6,11 @@ namespace Tic_Tac_Toe
     {
         static void Main(string[] args)
         {
-            UC1_CreatBoard uc1 = new UC1_CreatBoard();
-            uc1.Board();
+            //UC1_CreatBoard uc1 = new UC1_CreatBoard();
+            //uc1.Board();
+
+            UC2ChooseLetter uc2 = new UC2ChooseLetter();
+            uc2.choose();
         }
     }
 }
